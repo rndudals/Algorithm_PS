@@ -5,7 +5,7 @@ using namespace std;
 int N;
 int oper[4];
 int arr[12];
-int M = -2000000000, m = 2000000000;
+int M = -2000000000, m = 2000000000 ;
 vector<int> v;
 bool visited[401];
 
@@ -74,5 +74,5 @@ int main() {
 	go(0, arr[0]);
 
 	cout << M << '\n' << m;
-	return 0;
+	return 1;
 }
