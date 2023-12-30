@@ -16,7 +16,7 @@ void go(int idx, int n) {
 		if (m > n) { m = n; }
 		return ;
 	}
-	if (idx+1 < N) {
+	if (idx+1 < N) { // 다음 원소가 있으면 모든 연산자와 계산하기
 		for (int i = 0; i < v.size(); i++) {
 			if (v[i] == 0) {
 				if (!visited[i + 1]) {
