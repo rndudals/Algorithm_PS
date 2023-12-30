@@ -6,7 +6,7 @@ using namespace std;
 
 vector<int> solution(vector<int> array, vector<vector<int>> commands) {
     vector<int> answer;
-    vector<int> s; // 정렬을 위한 벡터
+    vector<int> s; // 정렬을 위한 벡터.
     for(int i=0;i<commands.size();i++){
          int start = commands[i][0];
          int end = commands[i][1];
