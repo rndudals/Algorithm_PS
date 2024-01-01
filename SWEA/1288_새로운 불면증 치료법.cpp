@@ -2,7 +2,7 @@
  
 using namespace std;
 
-//한글 테스트
+//한글 테스트.
 int N,tmp;
 bool arr[10];
 int e = 0;
