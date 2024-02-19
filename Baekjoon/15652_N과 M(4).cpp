@@ -27,6 +27,5 @@ int main() {
 	cin.tie(NULL); cout.tie(NULL);
 	cin >> N >> M;
 	func(0, 0);
-	
 	return 0;
 }
