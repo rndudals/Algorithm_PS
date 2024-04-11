@@ -4,6 +4,9 @@
 #include <queue>
 using namespace std;
 
+/*
+    우선순위 큐 사용
+*/
 int visited[1000001];
 priority_queue<pair<int,int>,vector<pair<int,int>>,greater<pair<int,int>>> pq;
 
