@@ -11,14 +11,14 @@ public class Main {
 		
 		int[] arr = new int[N];
 		
-		for(int i=0;i<N;i++) {
+		for(int i = 0; i < N; i++) {
 			arr[i] = scanner.nextInt();
 		}
 		
 		int target = scanner.nextInt();
 		
-		for(int i=0;i<N;i++) {
-			if(arr[i] == target) {
+		for(int i = 0 ; i < N ; i++) {
+		if(arr[i] == target) {
 				ans++;
 			}
 		}
