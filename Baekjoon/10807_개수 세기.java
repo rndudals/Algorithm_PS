@@ -18,7 +18,7 @@ public class Main {
 		int target = scanner.nextInt();
 		
 		for(int i = 0 ; i < N ; i++) {
-		if(arr[i] == target) {
+			if(arr[i] == target) {
 				ans++;
 			}
 		}
