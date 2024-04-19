@@ -18,9 +18,4 @@ class Solution {
         }
         return players;
     }
-    
-    public void swap(String a, String b, String[] players, int j){
-    players[j] = b;
-    players[j-1] = a;
-    }
 }
