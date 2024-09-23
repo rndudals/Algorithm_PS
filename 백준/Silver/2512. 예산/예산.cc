@@ -6,8 +6,8 @@ using namespace std;
 
 int N;
 vector<int> v;
-long long sum;
-long long cur_sum;
+int sum;
+int cur_sum;
 
 
 void input(){
