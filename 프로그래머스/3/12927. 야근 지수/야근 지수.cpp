@@ -25,9 +25,7 @@ long long solution(int n, vector<int> works) {
         }
     }
     
-    if(sum <= n){
-        answer = 0;
-    }else{
+    if(sum>n){
         for(int i=50000;i>0;i--){
             if(cnt[i]!=0){
                 answer += i*i;
