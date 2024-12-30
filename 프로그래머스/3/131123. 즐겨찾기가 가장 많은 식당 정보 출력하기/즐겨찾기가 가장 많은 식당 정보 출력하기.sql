@@ -1,7 +1,9 @@
-select FOOD_TYPE, REST_ID, REST_NAME, FAVORITES
+select food_type, REST_ID, REST_NAME, FAVORITES
 from REST_INFO
- where (FOOD_TYPE, FAVORITES) in
- (SELECT FOOD_TYPE, max(FAVORITES) as FAVORITES
-    FROM REST_INFO
-    group by FOOD_TYPE)
-order by FOOD_TYPE desc;
+where (food_type, favorites) in
+(
+select food_type, max(favorites) as FAVORITES
+from REST_INFO
+group by food_type
+)
+order by food_type desc
