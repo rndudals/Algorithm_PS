@@ -1,4 +1,4 @@
 -- 코드를 입력하세요
 select * 
-from(SELECT * from FOOD_PRODUCT order by price desc)
-where rownum=1
+from FOOD_PRODUCT
+where PRICE = (select max(PRICE) from FOOD_PRODUCT)
