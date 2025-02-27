@@ -1,23 +1,24 @@
 #include <string>
 #include <vector>
-#include <algorithm>
+
 using namespace std;
 
 vector<int> solution(int n, int s) {
-    vector<int> answer;    
-    if(n>s){
-        answer.push_back(-1); 
-        return answer; 
-    }  
-    else{
-       for(int i=0; i<n; i++) answer.push_back(s/n);   
-        int T=s%n;
-       int idx = 0;
-        while(T--){
-            answer[idx]++;
-            idx= (idx+1)%n;
-        }      
-    }   
-    sort(answer.begin(), answer.end());
+    vector<int> answer;
+    
+    while(n!=1){
+        int k = s/n;
+        if(k==0) break;
+        n--;
+        s-=k;
+        answer.push_back(k);
+    }
+    
+    if(n==1){
+        answer.push_back(s);
+    }
+    if(answer.size()==0){
+        answer.push_back(-1);
+    }
     return answer;
 }
