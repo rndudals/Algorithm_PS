@@ -10,14 +10,14 @@ int solution(vector<int> A, vector<int> B) {
     sort(A.begin(), A.end());
     sort(B.begin(), B.end());
     
-    
     int idx = 0;
     for(int i=0;i<B.size();i++){
-        if(B[i]>A[idx]){
-            idx++;
+        if(A[idx]<B[i]){
             answer++;
+            idx++;
         }
     }
+   
     
     return answer;
 }
