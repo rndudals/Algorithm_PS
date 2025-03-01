@@ -7,7 +7,7 @@ long long solution(int n, vector<int> times) {
     long long answer = 0;
     
     long long l = 1;
-    long long r = 1000000000000000000LL;
+    long long r = 100000000000000;
     
     while(l <= r){
         long long mid = l + (r - l) / 2;
