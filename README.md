@@ -60,6 +60,7 @@
 ### 🚀 Silver
 | 문제번호 | 링크 |
 | ----- | ----- |
+|1026. 보물|[링크](./%EB%B0%B1%EC%A4%80/Silver/1026.%E2%80%85%EB%B3%B4%EB%AC%BC/README.md)|
 |10431. 줄세우기|[링크](./%EB%B0%B1%EC%A4%80/Silver/10431.%E2%80%85%EC%A4%84%EC%84%B8%EC%9A%B0%EA%B8%B0/README.md)|
 |11057. 오르막 수|[링크](./%EB%B0%B1%EC%A4%80/Silver/11057.%E2%80%85%EC%98%A4%EB%A5%B4%EB%A7%89%E2%80%85%EC%88%98/README.md)|
 |1138. 한 줄로 서기|[링크](./%EB%B0%B1%EC%A4%80/Silver/1138.%E2%80%85%ED%95%9C%E2%80%85%EC%A4%84%EB%A1%9C%E2%80%85%EC%84%9C%EA%B8%B0/README.md)|
