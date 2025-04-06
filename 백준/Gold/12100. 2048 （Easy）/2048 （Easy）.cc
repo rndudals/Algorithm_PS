@@ -16,7 +16,7 @@ int ans = 0;
 int dx[4] = { 0, 1, 0, -1 };
 int dy[4] = { 1, 0, -1, 0 };
 
-// 디버깅용 (원하면 그대로 두거나 삭제)
+// 디버깅용
 void printArr(){
     cout << "\n-----\n";
     for(int i = 0; i < N; i++){
@@ -153,7 +153,7 @@ int main(){
     cin.tie(nullptr);
 
     input();
-    // "0회 이동 상태"에서 시작
+    
     move_(0);
 
     cout << ans << '\n';
