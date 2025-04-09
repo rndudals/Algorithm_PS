@@ -26,7 +26,7 @@ string bs(int n){
             e = mid;
         }
     }
-    return v[e].second;
+    return v[s].second;
 }
 
 int main(){
